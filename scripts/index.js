@@ -20,7 +20,7 @@ window.addEventListener("resize", () => {
 
 canvas.appendChild(app.view);
 
-const knight = PIXI.Sprite.from("../assets/knight.svg");
+const knight = PIXI.Sprite.from("/assets/knight.svg");
 app.stage.addChild(knight);
 knight.y = 250;
 const timeline = gsap.timeline({
